@@ -1,15 +1,15 @@
 <!doctype html>
 <html lang=en>
 <head>
-<title>Jaanga Terrain PNG Viewer DE3 32-63</title>
+<title>Jaanga Terrain PNG Viewer DE3 64-95</title>
 <meta charset=utf-8>
 </head>
 <body>
 <script>
 
-	var x = 63;
+	var x = 64;
 	var y = 49;
-	var source = 'http://jaanga.github.com/terrain-de3-32-63/';
+	var source = 'http://jaanga.github.com/terrain-de3-64-95/';
 
 	document.body.style.cssText = ' font: normal 12pt monospace; ';
 	
@@ -24,10 +24,10 @@
 	function getImage( direction) {
 		if ( direction === 'left' ) {
 			x--;
-			if ( x < 32 ) x = 63;
+			if ( x < 64 ) x = 95;
 		} else if ( direction === 'right' ) {
 			x++;
-			if ( x > 63 ) x = 32;
+			if ( x > 95 ) x = 64;
 		} else if ( direction === 'up' ) {
 			y--;
 			if ( y < 0 ) y = 127;

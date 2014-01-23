@@ -15,7 +15,7 @@ so that entry and intermediate level programmers may quickly and easily create n
 
 The data in this repository was sourced from Jonathan de Ferranti's web site: [Viewfinder Panoramas]( http://www.viewfinderpanoramas.org/dem3.html ).
 
-Ferranti's data was converted using [GDAL]( http://www.gdal.org/ ) and [OSGeo]( http://www.osgeo.org/ ).
+Ferranti's data was converted from binary HGT files to PNG files using [GDAL]( http://www.gdal.org/ ) and [OSGeo]( http://www.osgeo.org/ ).
 
 And, of course, none of this would be possible without GitHub.
 
@@ -33,9 +33,9 @@ There is much more information regarding this project at [Jaanga Terrain]( http:
 
 The files in this repository correspond to TMS/Slippy Map zoom level 7.
 
-This repository contains 4,096 files contained in 32 folders of 128 files each.
+This repository contains 4,096 PNG heightmap files contained in 32 folders of 128 files each.
 
-This is the hhird of four repositories that in total contain all the required 128 folders.
+This is the third of four repositories that in total contain all the required 128 folders.
 
 
 ## Data Viewers
